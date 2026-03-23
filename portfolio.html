@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio - Dexter Designs. Explore our residential, commercial, and renovation projects.">
+  <meta property="og:title" content="Portfolio | Dexter Designs">
+  <meta property="og:description" content="View our collection of luxury interior design projects.">
+  <title>Portfolio | Dexter Designs</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="logo">DEXTER</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="cta-btn">Start a Project</button>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PORTFOLIO HERO -->
+  <section style="min-height: 40vh; display: flex; align-items: center; justify-content: center; text-align: center;">
+    <div class="hero-content">
+      <h1>Our Portfolio</h1>
+      <p>A curated collection of our finest residential, commercial, and renovation projects.</p>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section>
+    <div class="section-container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="residential">Residential</button>
+        <button class="filter-btn" data-filter="commercial">Commercial</button>
+        <button class="filter-btn" data-filter="renovation">Renovation</button>
+      </div>
+
+      <div class="gallery" id="portfolio-gallery">
+        <!-- Residential Projects -->
+        <div class="gallery-item fade-in" data-category="residential" data-project="luxury-penthouse">
+          <div style="width: 100%; height: 100%; background-color: #E8DDD0; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project1.jpg" alt="Luxury Penthouse - Modern Living">
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="residential" data-project="scandinavian-home">
+          <div style="width: 100%; height: 100%; background-color: #D9CFC5; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project2.jpg" alt="Scandinavian Home - Bedroom Design">
+          </div>
+        </div>
+
+        <!-- Commercial Projects -->
+        <div class="gallery-item fade-in" data-category="commercial" data-project="hotel-lobby">
+          <div style="width: 100%; height: 100%; background-color: #E8DDD0; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project3.jpg" alt="Luxury Hotel Lobby">
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="commercial" data-project="office-space">
+          <div style="width: 100%; height: 100%; background-color: #D9CFC5; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project4.jpg" alt="Contemporary Office Space">
+          </div>
+        </div>
+
+        <!-- Renovation Projects -->
+        <div class="gallery-item fade-in" data-category="renovation" data-project="victorian-kitchen">
+          <div style="width: 100%; height: 100%; background-color: #E8DDD0; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project5.jpg" alt="Victorian Home Kitchen Renovation">
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="renovation" data-project="bungalow-refresh">
+          <div style="width: 100%; height: 100%; background-color: #D9CFC5; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project6.jpg" alt="Bungalow Refresh & Renovation">
+          </div>
+        </div>
+
+        <!-- Additional Residential -->
+        <div class="gallery-item fade-in" data-category="residential" data-project="farmhouse-living">
+          <div style="width: 100%; height: 100%; background-color: #E8DDD0; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project7.jpg" alt="Farmhouse Living Room">
+          </div>
+        </div>
+
+        <!-- Additional Commercial -->
+        <div class="gallery-item fade-in" data-category="commercial" data-project="restaurant">
+          <div style="width: 100%; height: 100%; background-color: #D9CFC5; display: flex; align-items: center; justify-content: center;">
+            <img src="assets/images/project8.jpg" alt="Fine Dining Restaurant">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal" id="project-modal">
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close">&times;</button>
+      <div id="modal-body">
+        <!-- Project details will be inserted here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>DEXTER DESIGNS</h4>
+        <p style="font-size: 0.95rem; margin-bottom: 1.5rem;">Creating timeless interior spaces that inspire and endure.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Residential Design</a></li>
+          <li><a href="#">Commercial Spaces</a></li>
+          <li><a href="#">Renovation</a></li>
+          <li><a href="#">Consultation</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <div class="social-links">
+          <a href="mailto:hello@dexterdesigns.com" title="Email">✉</a>
+          <a href="https://twitter.com" title="Twitter">𝕏</a>
+          <a href="https://facebook.com" title="Facebook">f</a>
+          <a href="https://instagram.com" title="Instagram">📷</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Dexter Designs. All rights reserved. | Lagos, Nigeria</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>
