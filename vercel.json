@@ -1,6 +1,16 @@
 {
   "buildCommand": "",
-  "outputDirectory": ".",
+  "outputDirectory": "public",
   "installCommand": "",
-  "framework": "static"
+  "framework": "static",
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
 }

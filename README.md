@@ -1,11 +1,11 @@
 # Dexter Designs - Luxury Interior Design Website
 
-A premium, modular, production-ready website for Dexter Designs, a luxury interior design brand based in Lagos, Nigeria.
+A premium, modular, production-ready website for Defter Designs, a luxury interior design brand based in Lagos, Nigeria.
 
 ## 🏗️ Project Structure
 
 ```
-dexter-designs/
+defter-designs/
 ├── index.html              # Homepage
 ├── about.html              # About & Company Story
 ├── portfolio.html          # Project Gallery with Filtering
@@ -176,7 +176,7 @@ dexter-designs/
 
 **Dexter Designs**
 - Location: Plot 1B, Lekki Phase 1, Lagos, Nigeria
-- Email: hello@dexterdesigns.com
+- Email: hello@defterdesigns.com
 - Phone: +234 (0) 123 456 7890
 - Office Hours: Mon-Fri 9AM-6PM, Sat 10AM-3PM
 

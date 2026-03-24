@@ -1,7 +1,7 @@
 {
-  "name": "dexter-designs",
+  "name": "defter-designs",
   "version": "1.0.0",
-  "description": "Luxury Interior Design Website - Dexter Designs",
+  "description": "Luxury Interior Design Website - Defter Designs",
   "private": true,
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
     "website",
     "portfolio"
   ],
-  "author": "Dexter Designs",
+  "author": "Defter Designs",
   "license": "MIT"
 }
