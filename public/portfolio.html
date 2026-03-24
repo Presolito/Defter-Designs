@@ -3,11 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio - Dexter Designs. Explore our residential, commercial, and renovation projects.">
-  <meta property="og:title" content="Portfolio | Dexter Designs">
+  <meta name="description" content="Portfolio - Defter Designs. Explore our residential, commercial, and renovation projects.">
+  <meta property="og:title" content="Portfolio | Defter Designs">
   <meta property="og:description" content="View our collection of luxury interior design projects.">
-  <title>Portfolio | Dexter Designs</title>
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600121848334-35f83c7244ca?w=1200&h=630&fit=crop&auto=format&q=85">
+  <title>Portfolio | Defter Designs</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1600121848334-35f83c7244ca?w=800&h=1000&fit=crop&auto=format&q=90">
 </head>
 <body>
   <!-- NAVBAR -->
@@ -49,41 +51,88 @@
 
       <div class="gallery" id="portfolio-gallery">
         <!-- Residential Projects -->
-        <div class="gallery-item fade-in" data-category="residential" data-project="luxury-penthouse">
-          <img src="https://images.unsplash.com/photo-1600121848334-35f83c7244ca?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Luxury Penthouse - Modern Living Room" loading="lazy">
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="residential" data-project="luxury-penthouse">
+          <img 
+            src="https://images.unsplash.com/photo-1600121848334-35f83c7244ca?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Luxury Penthouse - Modern Living Room with floor-to-ceiling windows" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
 
-        <div class="gallery-item fade-in" data-category="residential" data-project="scandinavian-home">
-          <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Scandinavian Home - Bedroom Design" loading="lazy">
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="residential" data-project="scandinavian-home">
+          <img 
+            src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Scandinavian Home - Bedroom Design with Nordic minimalism" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
 
         <!-- Commercial Projects -->
-        <div class="gallery-item fade-in" data-category="commercial" data-project="hotel-lobby">
-          <img src="https://images.unsplash.com/photo-1497366216548-37526070144c?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Luxury Hotel Lobby Design" loading="lazy">
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="commercial" data-project="hotel-lobby">
+          <img 
+            src="https://images.unsplash.com/photo-1497366216548-37526070144c?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Luxury Hotel Lobby - Sophisticated Commercial Space Design" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
 
-        <div class="gallery-item fade-in" data-category="commercial" data-project="office-space">
-          <img src="https://images.unsplash.com/photo-1520876212653-2c2b8cc352cb?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Contemporary Office Space Interior" loading="lazy">
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="commercial" data-project="office-space">
+          <img 
+            src="https://images.unsplash.com/photo-1520876212653-2c2b8cc352cb?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Contemporary Office Space - Professional Corporate Interior" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
 
         <!-- Renovation Projects -->
-        <div class="gallery-item fade-in" data-category="renovation" data-project="victorian-kitchen">
-          <img src="https://images.unsplash.com/photo-1556357875-a7c3d6b7a2a5?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Victorian Home Kitchen Renovation" loading="lazy">
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="renovation" data-project="victorian-kitchen">
+          <img 
+            src="https://images.unsplash.com/photo-1556357875-a7c3d6b7a2a5?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Victorian Home Kitchen Renovation - Modern meets Classic" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
 
-        <div class="gallery-item fade-in" data-category="renovation" data-project="bungalow-refresh">
-          <img src="https://images.unsplash.com/photo-1604857209411-fd75bc12fc80?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Bungalow Refresh & Renovation" loading="lazy">
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="renovation" data-project="bungalow-refresh">
+          <img 
+            src="https://images.unsplash.com/photo-1604857209411-fd75bc12fc80?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Bungalow Refresh - Complete Renovation and Styling" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
 
         <!-- Additional Residential -->
-        <div class="gallery-item fade-in" data-category="residential" data-project="farmhouse-living">
-          <img src="https://images.unsplash.com/photo-1547825487-8910df13e7fd?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Farmhouse Living Room Redesign" loading="lazy">
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="residential" data-project="farmhouse-living">
+          <img 
+            src="https://images.unsplash.com/photo-1547825487-8910df13e7fd?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Farmhouse Living Room - Rustic Elegant Design" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
 
         <!-- Additional Commercial -->
-        <div class="gallery-item fade-in" data-category="commercial" data-project="restaurant">
-          <img src="https://images.unsplash.com/photo-1504674900154-e4727b46ea1d?w=1200&h=1600&fit=crop&auto=format&q=85" alt="Fine Dining Restaurant Interior" loading="lazy">
-          </div>
+        <div class="gallery-item fade-in portfolio-grid-item" data-category="commercial" data-project="restaurant">
+          <img 
+            src="https://images.unsplash.com/photo-1504674900154-e4727b46ea1d?w=1200&h=1600&fit=crop&auto=format&q=90" 
+            alt="Fine Dining Restaurant - Upscale Interior Design" 
+            loading="lazy"
+            decoding="async"
+            class="responsive-image"
+          >
         </div>
       </div>
     </div>
@@ -139,6 +188,8 @@
     </div>
   </footer>
 
+  <script src="js/image-system.js"></script>
+  <script src="js/image-loader.js"></script>
   <script src="js/main.js"></script>
   <script src="js/animations.js"></script>
   <script src="js/portfolio.js"></script>
