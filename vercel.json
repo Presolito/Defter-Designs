@@ -2,7 +2,6 @@
   "buildCommand": "",
   "outputDirectory": "public",
   "installCommand": "",
-  "framework": "static",
   "routes": [
     {
       "src": "/",
