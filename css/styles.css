@@ -601,6 +601,10 @@ section:nth-child(even) {
   transition: var(--transition-smooth);
   z-index: 1;
   border: 1px solid rgba(212, 167, 106, 0.2);
+  display: block;
+  min-height: 300px;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .gallery-item::before {
@@ -635,6 +639,7 @@ section:nth-child(even) {
   object-fit: cover;
   transition: var(--transition-ease);
   display: block;
+  opacity: 1;
 }
 
 .gallery-item:hover {

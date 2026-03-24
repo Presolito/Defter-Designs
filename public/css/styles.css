@@ -236,6 +236,10 @@ section {
   aspect-ratio: 4/5;
   cursor: pointer;
   background-color: var(--light-gray);
+  display: block;
+  min-height: 300px;
+  opacity: 1;
+  transform: scale(1);
 }
 
 .gallery-item img {
@@ -243,6 +247,8 @@ section {
   height: 100%;
   object-fit: cover;
   transition: var(--transition);
+  display: block;
+  opacity: 1;
 }
 
 .gallery-item::after {
